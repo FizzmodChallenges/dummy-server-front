@@ -177,14 +177,14 @@
 	],
 	"filters": [
 		{
-			"title": "Marca",
-			"field": "brand",
-			"values": ["Bumblee Bee", "Sancor", "Terrabusi", "Sin Marca"]
-		},
-		{
 			"title": "Categoría",
 			"field": "category",
 			"values": ["Almacén", "Lácteos", "Verduras"]
+		},
+		{
+			"title": "Marca",
+			"field": "brand",
+			"values": ["Bumblee Bee", "Sancor", "Terrabusi", "Sin Marca"]
 		}
 	],
 	"menu": {}
