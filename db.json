@@ -186,5 +186,6 @@
 			"field": "category",
 			"values": ["Almacén", "Lácteos", "Verduras"]
 		}
-	]
+	],
+	"menu": {}
 }
