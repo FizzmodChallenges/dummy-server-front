@@ -1,202 +1,200 @@
 {
-  "menu": {
-    "categories": [
-      {
-        "title": "Bebidas",
-        "href": "#bebidas",
-        "children": [
-          {
-            "title": "Bebidas con Alcohol",
-            "href": "#bebidas-con-alcohol",
-            "children": [
-              {
-                "title": "Cervezas",
-                "href": "#cervezas"
-              },
-              {
-                "title": "Vinos",
-                "href": "#vinos"
-              }
-            ]
-          },
-          {
-            "title": "Bebidas sin Alcohol",
-            "href": "#bebidas-sin-alcohol",
-            "children": [
-              {
-                "title": "Aguas",
-                "href": "#aguas"
-              },
-              {
-                "title": "Gaseosas",
-                "href": "#gaseosas"
-              },
-              {
-                "title": "Jugos",
-                "href": "#jugos"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Electro",
-        "href": "#electro",
-        "children": [
-          {
-            "title": "Audio, video y TV",
-            "href": "#audio-video-tv",
-            "children": [
-              {
-                "title": "Radios",
-                "href": "#radios"
-              },
-              {
-                "title": "Televisores",
-                "href": "#televisores"
-              }
-            ]
-          },
-          {
-            "title": "Informática",
-            "href": "#informatica",
-            "children": [
-              {
-                "title": "Computadoras",
-                "href": "#computadoras"
-              },
-              {
-                "title": "Consolas",
-                "href": "#consolas"
-              },
-              {
-                "title": "Software",
-                "href": "#software"
-              }
-            ]
-          },
-          {
-            "title": "Telefonía",
-            "href": "#telefonia",
-            "children": [
-              {
-                "title": "Accesorios",
-                "href": "#accesorios"
-              },
-              {
-                "title": "Celulares",
-                "href": "#celulares"
-              },
-              {
-                "title": "Teléfonos fijos",
-                "href": "#telefonos-fijos"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Hogar",
-        "href": "#hogar",
-        "children": [
-          {
-            "title": "Bazar",
-            "href": "#bazar",
-            "children": [
-              {
-                "title": "Accesorios",
-                "href": "#accesorios"
-              },
-              {
-                "title": "Textiles",
-                "href": "#textiles"
-              }
-            ]
-          },
-          {
-            "title": "Muebles",
-            "href": "#muebles",
-            "children": [
-              {
-                "title": "Camas",
-                "href": "#camas"
-              },
-              {
-                "title": "Escritorios",
-                "href": "#escritorios"
-              },
-              {
-                "title": "Mesas",
-                "href": "#mesas"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Limpieza",
-        "href": "#limpieza",
-        "children": [
-          {
-            "title": "Limpieza industrial",
-            "href": "#limpieza-industrial"
-          },
-          {
-            "title": "Limpieza del hogar",
-            "href": "#limpieza-hogar"
-          },
-          {
-            "title": "Papelería",
-            "href": "#papeleria"
-          }
-        ]
-      },
-      {
-        "title": "Ropa",
-        "href": "#ropa",
-        "children": [
-          {
-            "title": "Hombre",
-            "href": "#hombre",
-            "children": [
-              {
-                "title": "Camisas",
-                "href": "#camisas"
-              },
-              {
-                "title": "Pantalones",
-                "href": "#pantalones"
-              }
-            ]
-          },
-          {
-            "title": "Mujer",
-            "href": "#mujer",
-            "children": [
-              {
-                "title": "Vestidos",
-                "href": "#vestidos"
-              }
-            ]
-          },
-          {
-            "title": "Niños",
-            "href": "#ninos",
-            "children": [
-              {
-                "title": "Bermudas",
-                "href": "#bermudas"
-              },
-              {
-                "title": "Chombas",
-                "href": "#chombas"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
+  "menu": [
+    {
+      "title": "Bebidas",
+      "href": "#bebidas",
+      "children": [
+        {
+          "title": "Bebidas con Alcohol",
+          "href": "#bebidas-con-alcohol",
+          "children": [
+            {
+              "title": "Cervezas",
+              "href": "#cervezas"
+            },
+            {
+              "title": "Vinos",
+              "href": "#vinos"
+            }
+          ]
+        },
+        {
+          "title": "Bebidas sin Alcohol",
+          "href": "#bebidas-sin-alcohol",
+          "children": [
+            {
+              "title": "Aguas",
+              "href": "#aguas"
+            },
+            {
+              "title": "Gaseosas",
+              "href": "#gaseosas"
+            },
+            {
+              "title": "Jugos",
+              "href": "#jugos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Electro",
+      "href": "#electro",
+      "children": [
+        {
+          "title": "Audio, video y TV",
+          "href": "#audio-video-tv",
+          "children": [
+            {
+              "title": "Radios",
+              "href": "#radios"
+            },
+            {
+              "title": "Televisores",
+              "href": "#televisores"
+            }
+          ]
+        },
+        {
+          "title": "Informática",
+          "href": "#informatica",
+          "children": [
+            {
+              "title": "Computadoras",
+              "href": "#computadoras"
+            },
+            {
+              "title": "Consolas",
+              "href": "#consolas"
+            },
+            {
+              "title": "Software",
+              "href": "#software"
+            }
+          ]
+        },
+        {
+          "title": "Telefonía",
+          "href": "#telefonia",
+          "children": [
+            {
+              "title": "Accesorios",
+              "href": "#accesorios"
+            },
+            {
+              "title": "Celulares",
+              "href": "#celulares"
+            },
+            {
+              "title": "Teléfonos fijos",
+              "href": "#telefonos-fijos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hogar",
+      "href": "#hogar",
+      "children": [
+        {
+          "title": "Bazar",
+          "href": "#bazar",
+          "children": [
+            {
+              "title": "Accesorios",
+              "href": "#accesorios"
+            },
+            {
+              "title": "Textiles",
+              "href": "#textiles"
+            }
+          ]
+        },
+        {
+          "title": "Muebles",
+          "href": "#muebles",
+          "children": [
+            {
+              "title": "Camas",
+              "href": "#camas"
+            },
+            {
+              "title": "Escritorios",
+              "href": "#escritorios"
+            },
+            {
+              "title": "Mesas",
+              "href": "#mesas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Limpieza",
+      "href": "#limpieza",
+      "children": [
+        {
+          "title": "Limpieza industrial",
+          "href": "#limpieza-industrial"
+        },
+        {
+          "title": "Limpieza del hogar",
+          "href": "#limpieza-hogar"
+        },
+        {
+          "title": "Papelería",
+          "href": "#papeleria"
+        }
+      ]
+    },
+    {
+      "title": "Ropa",
+      "href": "#ropa",
+      "children": [
+        {
+          "title": "Hombre",
+          "href": "#hombre",
+          "children": [
+            {
+              "title": "Camisas",
+              "href": "#camisas"
+            },
+            {
+              "title": "Pantalones",
+              "href": "#pantalones"
+            }
+          ]
+        },
+        {
+          "title": "Mujer",
+          "href": "#mujer",
+          "children": [
+            {
+              "title": "Vestidos",
+              "href": "#vestidos"
+            }
+          ]
+        },
+        {
+          "title": "Niños",
+          "href": "#ninos",
+          "children": [
+            {
+              "title": "Bermudas",
+              "href": "#bermudas"
+            },
+            {
+              "title": "Chombas",
+              "href": "#chombas"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "slides": [
     {
       "imgName": "Banner_1.png",
@@ -208,6 +206,10 @@
     },
     {
       "imgName": "Banner_3.png",
+      "href": "#banner-3"
+    },
+    {
+      "imgName": "Banner_4.png",
       "href": "#banner-3"
     }
   ],
