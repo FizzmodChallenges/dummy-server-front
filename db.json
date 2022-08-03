@@ -1,214 +1,376 @@
 {
-	"slides": [
-		{
-			"imgName": "Banner_1.png",
-			"href": "#banner-1"
-		},
-		{
-			"imgName": "Banner_2.png",
-			"href": "#banner-2"
-		},
-		{
-			"imgName": "Banner_3.png",
-			"href": "#banner-3"
-		}
-	],
-	"products": [
-		{
-			"id": 1,
-			"title": "Atún al natural 120 Gr",
-			"href": "#atun-al-natural",
-			"image": "atun.jpg",
-			"price": {
-				"listPrice": 64,
-				"sellingPrice": 50
-			},
-			"attributes": [
-				{
-					"field": "brand",
-					"value": "Bumblee Bee"
-				},
-				{
-					"field": "category",
-					"value": "Almacén"
-				}
-			]
-		},
-		{
-			"id": 2,
-			"title": "Atún en aceite 120 Gr",
-			"href": "#atun-en-aceite",
-			"image": "atun.jpg",
-			"price": {
-				"listPrice": 64,
-				"sellingPrice": 50
-			},
-			"attributes": [
-				{
-					"field": "brand",
-					"value": "Bumblee Bee"
-				},
-				{
-					"field": "category",
-					"value": "Almacén"
-				}
-			]
-		},
-		{
-			"id": 3,
-			"title": "Cebolla por Kg",
-			"href": "#cebolla",
-			"image": "cebolla.jpg",
-			"price": {
-				"listPrice": 32,
-				"sellingPrice": 16
-			},
-			"attributes": [
-				{
-					"field": "brand",
-					"value": "Sin Marca"
-				},
-				{
-					"field": "category",
-					"value": "Verduras"
-				}
-			]
-		},
-		{
-			"id": 4,
-			"title": "Galletitas Terrabusi Variedad",
-			"href": "#galletitas",
-			"image": "galletitas.jpg",
-			"price": {
-				"listPrice": 42.5,
-				"sellingPrice": 42.5
-			},
-			"attributes": [
-				{
-					"field": "brand",
-					"value": "Terrabusi"
-				},
-				{
-					"field": "category",
-					"value": "Almacén"
-				}
-			]
-		},
-		{
-			"id": 5,
-			"title": "Manteca Sancor 100 Gr",
-			"href": "#manteca",
-			"image": "manteca.jpg",
-			"price": {
-				"listPrice": 37,
-				"sellingPrice": 34
-			},
-			"attributes": [
-				{
-					"field": "brand",
-					"value": "Sancor"
-				},
-				{
-					"field": "category",
-					"value": "Lácteos"
-				}
-			]
-		},
-		{
-			"id": 6,
-			"title": "Galletitas Terrabusi Rococo 160 Gr",
-			"href": "#galletitas-rococo",
-			"image": "galletitas.jpg",
-			"price": {
-				"listPrice": 35.9,
-				"sellingPrice": 31.9
-			},
-			"attributes": [
-				{
-					"field": "brand",
-					"value": "Terrabusi"
-				},
-				{
-					"field": "category",
-					"value": "Almacén"
-				}
-			]
-		},
-		{
-			"id": 7,
-			"title": "Manteca Sancor 200 Gr",
-			"href": "#manteca-200",
-			"image": "manteca.jpg",
-			"price": {
-				"listPrice": 64,
-				"sellingPrice": 50
-			},
-			"attributes": [
-				{
-					"field": "brand",
-					"value": "Sancor"
-				},
-				{
-					"field": "category",
-					"value": "Lácteos"
-				}
-			]
-		},
-		{
-			"id": 8,
-			"title": "Atún al natural 201 Gr",
-			"href": "#atun-al-natural-201",
-			"image": "atun.jpg",
-			"price": {
-				"listPrice": 112,
-				"sellingPrice": 100
-			},
-			"attributes": [
-				{
-					"field": "brand",
-					"value": "Bumblee Bee"
-				},
-				{
-					"field": "category",
-					"value": "Almacén"
-				}
-			]
-		}
-	],
-	"filters": [
-		{
-			"title": "Categoría",
-			"field": "category",
-			"values": ["Almacén", "Lácteos", "Verduras"]
-		},
-		{
-			"title": "Marca",
-			"field": "brand",
-			"values": ["Bumblee Bee", "Sancor", "Terrabusi", "Sin Marca"]
-		}
-	],
-	"menu": {
-		"categories": [
-			{
-				"title": "CATEGORÍA NRO 1",
-				"href": "#cat1"
-			},
-			{
-				"title": "CATEGORÍA NRO 2",
-				"href": "#cat2"
-			},
-			{
-				"title": "CATEGORÍA NRO 3",
-				"href": "#cat3"
-			},
-			{
-				"title": "CATEGORÍA NRO 4",
-				"href": "#cat4"
-			},
-			{
-				"title": "CATEGORÍA NRO 5",
-				"href": "#cat5"
-			}
-		]
-	}
+  "menu": {
+    "categories": [
+      {
+        "title": "Bebidas",
+        "href": "#bebidas",
+        "children": [
+          {
+            "title": "Bebidas con Alcohol",
+            "href": "#bebidas-con-alcohol",
+            "children": [
+              {
+                "title": "Cervezas",
+                "href": "#cervezas"
+              },
+              {
+                "title": "Vinos",
+                "href": "#vinos"
+              }
+            ]
+          },
+          {
+            "title": "Bebidas sin Alcohol",
+            "href": "#bebidas-sin-alcohol",
+            "children": [
+              {
+                "title": "Aguas",
+                "href": "#aguas"
+              },
+              {
+                "title": "Gaseosas",
+                "href": "#gaseosas"
+              },
+              {
+                "title": "Jugos",
+                "href": "#jugos"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Electro",
+        "href": "#electro",
+        "children": [
+          {
+            "title": "Audio, video y TV",
+            "href": "#audio-video-tv",
+            "children": [
+              {
+                "title": "Radios",
+                "href": "#radios"
+              },
+              {
+                "title": "Televisores",
+                "href": "#televisores"
+              }
+            ]
+          },
+          {
+            "title": "Informática",
+            "href": "#informatica",
+            "children": [
+              {
+                "title": "Computadoras",
+                "href": "#computadoras"
+              },
+              {
+                "title": "Consolas",
+                "href": "#consolas"
+              },
+              {
+                "title": "Software",
+                "href": "#software"
+              }
+            ]
+          },
+          {
+            "title": "Telefonía",
+            "href": "#telefonia",
+            "children": [
+              {
+                "title": "Accesorios",
+                "href": "#accesorios"
+              },
+              {
+                "title": "Celulares",
+                "href": "#celulares"
+              },
+              {
+                "title": "Teléfonos fijos",
+                "href": "#telefonos-fijos"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Hogar",
+        "href": "#hogar",
+        "children": [
+          {
+            "title": "Bazar",
+            "href": "#bazar",
+            "children": [
+              {
+                "title": "Accesorios",
+                "href": "#accesorios"
+              },
+              {
+                "title": "Textiles",
+                "href": "#textiles"
+              }
+            ]
+          },
+          {
+            "title": "Muebles",
+            "href": "#muebles",
+            "children": [
+              {
+                "title": "Camas",
+                "href": "#camas"
+              },
+              {
+                "title": "Escritorios",
+                "href": "#escritorios"
+              },
+              {
+                "title": "Mesas",
+                "href": "#mesas"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Limpieza",
+        "href": "#limpieza",
+        "children": [
+          {
+            "title": "Limpieza industrial",
+            "href": "#limpieza-industrial"
+          },
+          {
+            "title": "Limpieza del hogar",
+            "href": "#limpieza-hogar"
+          },
+          {
+            "title": "Papelería",
+            "href": "#papeleria"
+          }
+        ]
+      },
+      {
+        "title": "Ropa",
+        "href": "#ropa",
+        "children": [
+          {
+            "title": "Hombre",
+            "href": "#hombre",
+            "children": [
+              {
+                "title": "Camisas",
+                "href": "#camisas"
+              },
+              {
+                "title": "Pantalones",
+                "href": "#pantalones"
+              }
+            ]
+          },
+          {
+            "title": "Mujer",
+            "href": "#mujer",
+            "children": [
+              {
+                "title": "Vestidos",
+                "href": "#vestidos"
+              }
+            ]
+          },
+          {
+            "title": "Niños",
+            "href": "#ninos",
+            "children": [
+              {
+                "title": "Bermudas",
+                "href": "#bermudas"
+              },
+              {
+                "title": "Chombas",
+                "href": "#chombas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "slides": [
+    {
+      "imgName": "Banner_1.png",
+      "href": "#banner-1"
+    },
+    {
+      "imgName": "Banner_2.png",
+      "href": "#banner-2"
+    },
+    {
+      "imgName": "Banner_3.png",
+      "href": "#banner-3"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Atún al natural 120 Gr",
+      "href": "#atun-al-natural",
+      "image": "atun.jpg",
+      "price": {
+        "listPrice": 64,
+        "sellingPrice": 50
+      },
+      "attributes": [
+        {
+          "field": "brand",
+          "value": "Bumblee Bee"
+        },
+        {
+          "field": "category",
+          "value": "Almacén"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Atún en aceite 120 Gr",
+      "href": "#atun-en-aceite",
+      "image": "atun.jpg",
+      "price": {
+        "listPrice": 64,
+        "sellingPrice": 50
+      },
+      "attributes": [
+        {
+          "field": "brand",
+          "value": "Bumblee Bee"
+        },
+        {
+          "field": "category",
+          "value": "Almacén"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Cebolla por Kg",
+      "href": "#cebolla",
+      "image": "cebolla.jpg",
+      "price": {
+        "listPrice": 32,
+        "sellingPrice": 16
+      },
+      "attributes": [
+        {
+          "field": "brand",
+          "value": "Sin Marca"
+        },
+        {
+          "field": "category",
+          "value": "Verduras"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Galletitas Terrabusi Variedad",
+      "href": "#galletitas",
+      "image": "galletitas.jpg",
+      "price": {
+        "listPrice": 42.5,
+        "sellingPrice": 42.5
+      },
+      "attributes": [
+        {
+          "field": "brand",
+          "value": "Terrabusi"
+        },
+        {
+          "field": "category",
+          "value": "Almacén"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Manteca Sancor 100 Gr",
+      "href": "#manteca",
+      "image": "manteca.jpg",
+      "price": {
+        "listPrice": 37,
+        "sellingPrice": 34
+      },
+      "attributes": [
+        {
+          "field": "brand",
+          "value": "Sancor"
+        },
+        {
+          "field": "category",
+          "value": "Lácteos"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Galletitas Terrabusi Rococo 160 Gr",
+      "href": "#galletitas-rococo",
+      "image": "galletitas.jpg",
+      "price": {
+        "listPrice": 35.9,
+        "sellingPrice": 31.9
+      },
+      "attributes": [
+        {
+          "field": "brand",
+          "value": "Terrabusi"
+        },
+        {
+          "field": "category",
+          "value": "Almacén"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Manteca Sancor 200 Gr",
+      "href": "#manteca-200",
+      "image": "manteca.jpg",
+      "price": {
+        "listPrice": 64,
+        "sellingPrice": 50
+      },
+      "attributes": [
+        {
+          "field": "brand",
+          "value": "Sancor"
+        },
+        {
+          "field": "category",
+          "value": "Lácteos"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Atún al natural 201 Gr",
+      "href": "#atun-al-natural-201",
+      "image": "atun.jpg",
+      "price": {
+        "listPrice": 112,
+        "sellingPrice": 100
+      },
+      "attributes": [
+        {
+          "field": "brand",
+          "value": "Bumblee Bee"
+        },
+        {
+          "field": "category",
+          "value": "Almacén"
+        }
+      ]
+    }
+  ]
 }
